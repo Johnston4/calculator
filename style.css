@@ -1,3 +1,6 @@
 input {
     text-align: right;
 }
+.btn-block+.btn-block {
+    margin-top: 0;
+}
