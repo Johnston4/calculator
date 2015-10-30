@@ -4,3 +4,6 @@ input {
 .btn-block+.btn-block {
     margin-top: 0;
 }
+body {
+    background-color: #969A96;
+}
