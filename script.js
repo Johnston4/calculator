@@ -30,7 +30,9 @@ var op = null;
 function input_digit(button_text) {
     num_array[i] += button_text;
     console.log("This is the num_array", num_array);
-    if (num_array){}
+    if (num_array.length==3){
+
+    }
         }
 
     function increment_array() {
@@ -92,8 +94,9 @@ function input_digit(button_text) {
                 console.log("3 This is the array: " + num_array);
                 num_array = [];
                 num_array[0] = result;
+                num_array[1] = op;
                 console.log('num_array is now: ', num_array);
-                display_output(num_array[i]);
+                display_output(num_array[0]);
                 //i=0;
                 //['5','-','2','+','3']
                 //store the result in the 0th index of num_array
