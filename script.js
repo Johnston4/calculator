@@ -90,7 +90,7 @@ function input_digit(button_text) {
                 console.log('this is the result: ' + result);
                 console.log("2 This is the array: " + num_array);
                 console.log('this is num array i right now: ' + num_array[i]);
-                num_array.splice(num_array[i], 1);
+                num_array.splice(num_array[i], 2);
                 console.log("3 This is the array: " + num_array);
                 num_array = [];
                 num_array[0] = result;
